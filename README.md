@@ -1,2 +1,3 @@
 # AlgorithmLearning
-personal learning about the DataStruct and Algorithm,
+Daily learning about the DataStruct and Algorithm
+welcome to discuss and make progress together
