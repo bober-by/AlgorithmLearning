@@ -40,4 +40,26 @@ public class Bubblesort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+    public static Boolean validate(int[] arr,int[] myarr){
+
+
+        return true;
+    }
+
+    public static void main(String[] args) {
+        // define a timer to run the function many times to validate
+        int times = 1000;
+        for (int i=0;i<times;i++) {
+
+            int[] arr = generateRandomArray(10,10);
+            int[] myarr = arr;
+            bubbleSort(myarr);
+            RightMethod(arr);
+
+
+        }
+
+
+    }
 }
