@@ -16,6 +16,9 @@ public class MergeSort {
         if (L == R) {
             return;
         }
+        // (L + R)/2 ===>L+R maybe result in overflow
+        // (L + R)/2 == L + (R-L)/2 ===> divide by 2 is equal to right shift 1 byte === L + （R-L)>>1
+        // Right shift operation is faster than arithmetic operation
         int mid = L + ((R - L) >> 1);
         sortProcess(arr, L, mid);
         sortProcess(arr, mid + 1, R);
