@@ -1,5 +1,11 @@
 package bob.sort;
 
+
+/*
+
+     Given an array and a cosnst named num, design a function to put the number smaller than num
+    contained in the array in it's left ,and put the number bigger than num in array's right position
+ */
 public class ExchangeSort {
 
     public static void exchange(int[] arr,int num){
@@ -21,6 +27,13 @@ public class ExchangeSort {
                 }
             }
         }
+    }
+
+    public static void partition(int[] arr, int l ,int r ,int mid){
+
+
+
+
     }
 
     public static void main(String[] args) {
