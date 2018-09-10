@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3e57668-98f4-4826-9c2f-96c979e506fb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bob/sort/Heapsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bob/sort/Heapsort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bob/sort/QuickSort.java">
+      <file leaf-file-name="HeapSort_2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bob/sort/HeapSort_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="480">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heapsort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Heapsort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bob/sort/Heapsort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="487">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -59,6 +60,7 @@
         <option value="$PROJECT_DIR$/src/bob/sort/partitionSort2.java" />
         <option value="$PROJECT_DIR$/src/bob/sort/test.java" />
         <option value="$PROJECT_DIR$/src/bob/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/bob/sort/HeapSort_2.java" />
         <option value="$PROJECT_DIR$/src/bob/sort/Heapsort.java" />
       </list>
     </option>
@@ -267,12 +269,12 @@
       <workItem from="1535198721470" duration="3332000" />
       <workItem from="1535371465909" duration="6302000" />
       <workItem from="1535974492097" duration="2299000" />
-      <workItem from="1536396362042" duration="4460000" />
+      <workItem from="1536396362042" duration="14844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37521000" />
+    <option name="totallyTimeSpent" value="47905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -287,7 +289,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25668448" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18850267" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -316,7 +318,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -433,15 +435,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bob/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="356">
           <caret line="43" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bob/sort/Heapsort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="487">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bob/sort/HeapSort_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>

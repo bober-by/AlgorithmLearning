@@ -18,14 +18,20 @@ public class Heapsort {
         }
 
         // 大根堆排序
-        int i  = 0 ;
+        int size = arr.length;
+        Swap(arr,0,--size);
+        while (size > 0){
 
-        heapify(arr,--i,arr.length);
+            heapify(arr,0,size);
+            Swap(arr,0,--size);
+
+        }
 
         return arr;
 
     }
 
+    // 大根堆排序，每趟排序固定一个最大值
     public static void heapify(int[] arr,int index,int heapSize){
 
         int leftchild = index * 2 + 1;
@@ -70,7 +76,8 @@ public class Heapsort {
 
     public static void main(String[] args) {
 
-        int[] arr = {16, 23, 20, 43, 2, 9, 21, 20, 18, 20, 56, 1, 19, 82};
+//        int[] arr = {16, 23, 20, 43, 2, 9, 21, 20, 18, 20, 56, 1, 19, 82};
+        int[] arr = {16, 23, 20, 43, 2, 9};
         int[] arr1 = Heapsort(arr);
 
         for (int i = 0; i < arr1.length; i++) {
