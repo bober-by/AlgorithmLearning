@@ -47,13 +47,37 @@ def preorder(self, root):
             print(stack.pop())
             if node.rchild:
                 stack.append(node.rchild)
-             
+
 
 # 中序遍历
 def inorder(self, root):
-    pass
+    if root == None:
+        return
+
+    print(root.data)
+    if root.lchild:
+        inorder(root.lchild)
+    if root.rchild:
+        inorder(root.rchild)
 
 
-# 后序遍历
+# 后序遍历---非递归
 def postorder(self, root):
-    pass
+    if root == None:
+        return
+
+    stack = []
+    #  辅助栈记录结点访问情况
+    stacktemp = []
+    stack.append(root)
+    stacktemp.append(root)
+    while stack:
+        cur = len(stack) - 1
+        if stack[cur].lchild and stack[cur].lchild not in stacktemp:
+            stack.append(stack[cur].lchild)
+            stacktemp.append(stack[cur].lchild)
+        elif stack[cur].rchild and stack[cur].lchild not in stacktemp:
+            stack.append(stack[cur].rchild)
+            stacktemp.append(stack[cur].rchild)
+        else:
+            print(stack.pop())
