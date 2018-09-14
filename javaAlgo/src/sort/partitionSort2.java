@@ -1,4 +1,4 @@
-package bob.sort;
+package sort;
 
 /*
     荷兰国旗问题：

@@ -1,4 +1,4 @@
-package bob.sort;
+package sort;
 
 public class SelectionSort {
     // 交换排序：每一趟遍历找出最小值后与第i个元素交换，i++

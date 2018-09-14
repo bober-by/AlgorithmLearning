@@ -1,5 +1,6 @@
-package bob.sort;
+package sort;
 
+// 二分法找最大值
 public class Sort {
 
     // 递归

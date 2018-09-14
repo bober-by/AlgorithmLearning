@@ -1,4 +1,4 @@
-package bob.sort;
+package sort;
 
 /*
     堆排序案例：
